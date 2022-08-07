@@ -1,5 +1,8 @@
 <h2>Interpolação de texto</h2>
 <h3>Aprofundando os conhecimen tos em Angular</h3>
 <!-- como se fosse uma props no react o papy serve para formatar o texto-->
+<img [src]="urlImg" width="250" height="400">
 <p> Nome: {{nome | uppercase}} </p> 
-<p> Data de nascimento: {{dataNascimento | date: "dd/MMMM/yyyy" }} </p>
+<p> Data de nascimento: {{dataNascimento | date: "dd/MM/yyyy" }} </p>
+
+<button (click)="mostrarDataNascimento()" type="button">Mostar data de Nascimento</button>
