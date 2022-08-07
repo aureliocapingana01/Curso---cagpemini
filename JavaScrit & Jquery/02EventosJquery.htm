@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- jquery-3 -->
+    <script src="jquery-3.6.0.js"></script>
+
+    <!-- jS -->
+    <script>
+        $(document).ready(function(){
+            
+            //Evento de clique
+            $("button").click(function(){
+                //Adicionar texto no H1
+                $("h1").html("Você clicou no botão")   
+            })
+
+            $(".apagar").click(function(){
+                //Adicionar texto no H1
+                $("h1").html("")
+               
+            })
+        })
+    </script>
+
+    <title>Document</title>
+</head>
+<body>
+    <h1>Loto facil da independência</h1>
+    <button>Clique Aqui</button>
+    <button class="apagar" >Apagar</button>
+</body>
+</html>

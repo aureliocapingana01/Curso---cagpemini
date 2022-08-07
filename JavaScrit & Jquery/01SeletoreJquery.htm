@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- jquery-3 -->
+    <script src="jquery-3.6.0.js"></script>
+
+    <!-- jS -->
+    <script>
+        $(document).ready(function(){
+            let campo = $("input").val()
+            let titulo = $("#titulo").html()
+            let subtitulo = $(".subtitulo").html()
+
+            // Exibir
+            alert(campo)
+            alert(titulo)
+            alert(subtitulo)
+            
+        })
+    </script>
+
+    <title>Document</title>
+</head>
+<body>
+    
+    <input type="text" value="campo Nome"> 
+    <h1 id="titulo">Titulo H1</h1>
+    <h2 class="subtitulo">titulo <H2></H2></h2>
+
+</body>
+</html>

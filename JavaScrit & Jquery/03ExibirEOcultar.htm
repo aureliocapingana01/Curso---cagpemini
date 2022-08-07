@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- jquery-3 -->
+    <script src="jquery-3.6.0.js"></script>
+
+    <!-- jS -->
+    <script>
+        $(document).ready(function(){
+            //Exibir
+            $("#exibir").click(function(){
+                $("img").show()
+            })
+            //Ocultar
+            $("#ocultar").click(function(){
+                $("img").hide()
+            })
+        })
+    </script>
+
+    <title>Document</title>
+</head>
+<body>
+    <button id="exibir">Exibir</button>
+    <button id="ocultar">Ocultar</button>
+    <br> <br><br>
+    <img src="euro.jpg" alt="">
+</body>
+</html>
